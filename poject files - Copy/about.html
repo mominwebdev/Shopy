@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+        <!-- swiper js -->
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+      
+       <!-- custom css file -->
+       <link rel="stylesheet" href="./css/shares.css">
+       <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+ 
+    <!-- header -->
+    <header class="header">
+        <a href="./home.html" class="logo"> <i class="fas fa-store"></i>Shopy </a>
+        
+         <form action="#" class="search-form">
+             <input type="search" id="search-box" placeholder="search here ...">
+             <label for="search-box" class="fas fa-search"></label>
+         </form>
+          
+         <div class="icons">
+             <div  href="#" id="menu-btn" class="active fas fa-bars"></div>
+             <div id="search-btn" class="fas fa-search"></div>
+             <a href="./login.html" class="fas fa-user"></a>
+             <a href="./cart.html" class="fas fa-shopping-cart"></a>
+         </div>
+    </header>
+
+    <!--  header section and here   -->    
+    <div class="side-bar">
+  
+        <div id="close-side-bar" class="fas fa-times">
+
+        </div> 
+
+        <div class="user">
+            <img src="./images/userName.jpg" alt="user img">
+            <h2>Ikhtiyorjon Mominov</h2>
+             <a href="#">log out</a>
+        </div>
+        <navbar class="navbar">
+            <ul>
+                <li>
+                    <a href="./home.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="./about.html"><i class="fas fa-angle-right"></i> About</a>
+                    <a href="./ptoduct.html"><i class="fas fa-angle-right"></i> Product</a>
+                    <a href="./contact.html"><i class="fas fa-angle-right"></i> Contact</a>
+                    <a href="./login.html"><i class="fas fa-angle-right"></i> Login</a>
+                    <a href="./register.html"><i class="fas fa-angle-right"></i> Register</a>
+                    <a href="./cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                </li>
+            </ul>
+        </navbar>
+    </div>
+<!--navbar side section and here -->
+
+  <section class="about">
+      <div class="about-box">
+          <div class="img-about">
+            <img src="./images/about-img.png" alt="img">
+          </div>
+             
+          <div class="about-content">
+              <h2>About our shop</h2>
+            
+              <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti deleniti <br>
+                   molestias suscipit delectus eaque nisi est magnam laudantium rem.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis corrupti deleniti <br>
+                 molestias suscipit delectus eaque nisi est magnam
+              </p>
+
+              <a class="btn" href="#">Read more</a>
+          </div>
+      </div>
+  </section>
+
+
+<!-- accordiamce  -->
+  <section class="acc">
+    <h1 class="header-text">
+        Question <span>& Answers</span>
+    </h1>
+
+    <div class="container-acc">
+
+        <button class="accordion">How to Place Order
+            <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="acc-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vero veniam ipsa commodi 
+                ratione eaque voluptate iure aliquam, quod fugit inventore 
+                explicabo iusto molestias hic quis doloribus maiores eum. Nihil, ipsa.
+            </p>
+        </div>
+
+        <button class="accordion">How to pay online
+            <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="acc-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vero veniam ipsa commodi 
+                ratione eaque voluptate iure aliquam, quod fugit inventore 
+                explicabo iusto molestias hic quis doloribus maiores eum. Nihil, ipsa.
+            </p>
+        </div>
+        <button class="accordion">Is online payment is safe
+            <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="acc-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vero veniam ipsa commodi 
+                ratione eaque voluptate iure aliquam, quod fugit inventore 
+                explicabo iusto molestias hic quis doloribus maiores eum. Nihil, ipsa.
+            </p>
+        </div>
+        <button class="accordion">How to order
+            <i class="fas fa-angle-down"></i>
+        </button>
+        <div class="acc-content">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Vero veniam ipsa commodi 
+                ratione eaque voluptate iure aliquam, quod fugit inventore 
+                explicabo iusto molestias hic quis doloribus maiores eum. Nihil, ipsa.
+            </p>
+        </div>
+    </div>
+  </section>
+
+  <!-- client review section  -->
+               
+     
+  <div class="swiper review-customer">
+    <h2 class="heading-text">What our customers says  <span>About us ?</span></h2>
+
+    <div class="swiper-wrapper review-container">
+
+       <div data-hash="slide1" class="swiper-slide review-box">
+            <div class="img-review">
+                <img src="./images/pic-1.png" alt="">
+
+                <h2>cavin</h2>
+            </div>
+
+            <div class="review-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquid ipsa molestiae ex  sapiente temporibus soluta, <br> voluptatibus officia velit vitae, 
+                    iure ad cupiditate nemo doloribus distinctio impedit dolore commodi optio?
+                </p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        </div>
+
+        <div data-hash="slide1" class="swiper-slide review-box">
+            <div class="img-review">
+                <img src="./images/pic-2.png" alt="">
+
+                <h2>cavin</h2>
+            </div>
+
+            <div class="review-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquid ipsa molestiae ex  sapiente temporibus soluta, <br> voluptatibus officia velit vitae, 
+                    iure ad cupiditate nemo doloribus distinctio impedit dolore commodi optio?
+                </p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        </div>
+
+        <div data-hash="slide1" class="swiper-slide review-box">
+            <div class="img-review">
+                <img src="./images/pic-3.png" alt="">
+
+                <h2>cavin</h2>
+            </div>
+
+            <div class="review-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquid ipsa molestiae ex  sapiente temporibus soluta, <br> voluptatibus officia velit vitae, 
+                    iure ad cupiditate nemo doloribus distinctio impedit dolore commodi optio?
+                </p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        </div>
+
+        <div data-hash="slide1" class="swiper-slide review-box">
+            <div class="img-review">
+                <img src="./images/pic-4.png" alt="">
+
+                <h2>cavin</h2>
+            </div>
+
+            <div class="review-content">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In aliquid ipsa molestiae ex  sapiente temporibus soluta, <br> voluptatibus officia velit vitae, 
+                    iure ad cupiditate nemo doloribus distinctio impedit dolore commodi optio?
+                </p>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        </div>
+
+        
+ 
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+
+
+
+
+    <!-- footer seection  -->
+  <section class="footer">
+    <div class="footer-box">
+       <div class="logo-footer">
+          <a href="./home.html" class="logo"> <i class="fas fa-store"></i> Shopy </a>
+       </div>
+
+       <div class="links">
+          <ul>
+              <li>
+                  <a href="./home.html">Home</a>
+                  <a href="./about.html">About</a>
+                  <a href="./ptoduct.html">Product</a>
+                  <a href="./contact.html"> Contact</a>
+                  <a href="./login.html"> Login</a>
+                  <a href="./register.html"> Register</a>
+                  <a href="./cart.html">   Cart</a>
+              </li>
+          </ul>
+       </div>
+
+       <div class="social-media">
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+       </div>
+    </div>
+
+    <div class="cards">
+        <div class="creater">
+            <h3>Developed by <span>MominWebDev</span>  || <span>All Right Reserved!</span></h1>
+
+            <div class="payment-cards">
+                <img src="./images/card_img.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+       <!-- swiper js-->
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+   <!-- custom js file -->
+   <script src="./js/index.js"></script>
+</body>
+</html>

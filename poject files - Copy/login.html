@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+        <!-- font-awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+        <!-- swiper js -->
+        <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+        
+        <!-- custom css file -->
+        <link rel="stylesheet" href="./css/shares.css">
+        <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+ 
+    <!-- header -->
+    <header class="header">
+        <a href="./home.html" class="logo"> <i class="fas fa-store"></i>Shopy </a>
+        
+         <form action="#" class="search-form">
+             <input type="search" id="search-box" placeholder="search here ...">
+             <label for="search-box" class="fas fa-search"></label>
+         </form>
+          
+         <div class="icons">
+             <div  href="#" id="menu-btn" class="active fas fa-bars"></div>
+             <div id="search-btn" class="fas fa-search"></div>
+             <a href="./login.html" class="fas fa-user"></a>
+             <a href="./cart.html" class="fas fa-shopping-cart"></a>
+         </div>
+    </header>
+
+    <!--  header section and here   -->    
+    <div class="side-bar">
+  
+        <div id="close-side-bar" class="fas fa-times">
+
+        </div> 
+
+        <div class="user">
+            <img src="./images/userName.jpg" alt="user img">
+            <h2>Ikhtiyorjon Mominov</h2>
+             <a href="#">log out</a>
+        </div>
+        <navbar class="navbar">
+            <ul>
+                <li>
+                    <a href="./home.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="./about.html"><i class="fas fa-angle-right"></i> About</a>
+                    <a href="./ptoduct.html"><i class="fas fa-angle-right"></i> Product</a>
+                    <a href="./contact.html"><i class="fas fa-angle-right"></i> Contact</a>
+                    <a href="./login.html"><i class="fas fa-angle-right"></i> Login</a>
+                    <a href="./register.html"><i class="fas fa-angle-right"></i> Register</a>
+                    <a href="./cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                </li>
+            </ul>
+        </navbar>
+    </div>
+<!--navbar side section and here -->
+
+
+<!-- login section start here -->
+ 
+<section class="login">
+
+    <form action="">
+        <h2>login now</h2>
+        <input type="email" placeholder="Enter your email" id="" class="input">
+         <input type="password" placeholder="Enter your password" id="" class="input">
+         <div class="remember">
+
+             <input type="checkbox" name="" id="remember-me">
+
+             <label>remember me</label>
+
+         </div>
+
+         <input type="submit" value="Login  now" class="btn">
+
+         <p>don't have an account now</p>
+
+         <a class="register" href="register.html">register now</a>
+    </form>
+
+</section>
+
+
+<!-- footer seection  -->
+      <section class="footer">
+        <div class="footer-box">
+           <div class="logo-footer">
+              <a href="./home.html" class="logo"> <i class="fas fa-store"></i> Shopy </a>
+           </div>
+    
+           <div class="links">
+              <ul>
+                  <li>
+                      <a href="./home.html">Home</a>
+                      <a href="./about.html">About</a>
+                      <a href="./ptoduct.html">Product</a>
+                      <a href="./contact.html"> Contact</a>
+                      <a href="./login.html"> Login</a>
+                      <a href="./register.html"> Register</a>
+                      <a href="./cart.html">   Cart</a>
+                  </li>
+              </ul>
+           </div>
+    
+           <div class="social-media">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+           </div>
+        </div>
+    
+        <div class="cards">
+            <div class="creater">
+                <h3>Developed by <span>MominWebDev</span>  || <span>All Right Reserved!</span></h1>
+    
+                <div class="payment-cards">
+                    <img src="./images/card_img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+           <!-- swiper js-->
+       <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+       <!-- custom js file -->
+       <script src="./js/index.js"></script>
+    </body>
+    </html>

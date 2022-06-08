@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+   
+    <!-- font-awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      
+     <!-- swiper js -->
+     <link rel="stylesheet"href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+   
+    <!-- custom css file -->
+    <link rel="stylesheet" href="./css/shares.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <a href="./home.html" class="logo"> <i class="fas fa-store"></i>Shopy </a>
+        
+         <form action="#" class="search-form">
+             <input type="search" id="search-box" placeholder="search here ...">
+             <label for="search-box" class="fas fa-search"></label>
+         </form>
+          
+         <div class="icons">
+             <div  href="#" id="menu-btn" class="active fas fa-bars"></div>
+             <div id="search-btn" class="fas fa-search"></div>
+             <a href="./login.html" class="fas fa-user"></a>
+             <a href="./cart.html" class="fas fa-shopping-cart"></a>
+         </div>
+    </header>
+
+    <!--  header section and here   -->
+
+     <!-- navbar section start here  -->
+    <div class="side-bar">
+  
+        <div id="close-side-bar" class="fas fa-times">
+
+        </div> 
+
+        <div class="user">
+            <img src="./images/userName.jpg" alt="user img">
+            <h2>Ikhtiyorjon Mominov</h2>
+             <a href="#">log out</a>
+        </div>
+        <navbar class="navbar">
+            <ul>
+                <li>
+                    <a href="./home.html"><i class="fas fa-angle-right"></i> Home</a>
+                    <a href="./about.html"><i class="fas fa-angle-right"></i> About</a>
+                    <a href="./ptoduct.html"><i class="fas fa-angle-right"></i> Product</a>
+                    <a href="./contact.html"><i class="fas fa-angle-right"></i> Contact</a>
+                    <a href="./login.html"><i class="fas fa-angle-right"></i> Login</a>
+                    <a href="./register.html"><i class="fas fa-angle-right"></i> Register</a>
+                    <a href="./cart.html"><i class="fas fa-angle-right"></i> Cart</a>
+                </li>
+            </ul>
+        </navbar>
+    </div>
+<!--navbar side section and here -->
+ 
+<!-- home section start here --> 
+<section class="home">
+
+   
+    <div class="swiper home-slider">
+
+        <div class="swiper-wrapper home-container">
+        
+            <div class="swiper-slide content">
+                <div class="img">
+                    <img src="./images/home-img-1.jpg" alt="page">
+                </div>
+                
+                <div class="box">
+                    <p>upto 20% off</p>
+                    <h1>New Smartphones</h1>
+                    <a href="https://www.amazon.com/?&tag=googleglobalp-20&ref=pd_sl_7nnedyywlk_e&adgrpid=82342659060&hvpone=&hvptwo=&hvadid=585475370855&hvpos=&hvnetw=g&hvrand=6846342228780800514&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9069544&hvtargid=kwd-10573980&hydadcr=2246_13468515&gclid=Cj0KCQjw29CRBhCUARIsAOboZbJc7sumL_gpt65ykqjkUP-tcL7DxOHlK3R-NtpGuJWj6XaRZXNFnDwaAvjgEALw_wcB">Shop Now</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide content">
+                <div class="img">
+                    <img src="./images/home-img-2.jpg" alt="page">
+                </div>
+                
+                <div class="box">
+                    <p>upto 20% off</p>
+                    <h1>New Watches</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+            <div class="swiper-slide content">
+                <div class="img">
+                    <img src="./images/home-img-3.jpg" alt="page">
+                </div>
+                
+                <div class="box">
+                    <p>upto 20% off</p>
+                    <h1>New Headphones</h1>
+                    <a href="#">Shop Now</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+
+    </div>
+  </section>
+<!-- home  section and here -->
+
+<!-- current offers -->
+
+<section class="current-offer">
+    <div class="offers-container">
+
+        <div class="offers-content">
+            <div class="text-offer">
+                <h3>special offers</h3>
+                <h1>upto 50% off</h1>
+            </div>
+
+            <div class="img-offer">
+                <img src="./images/banner-1.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="offers-content">
+            <div class="text-offer">
+                <h3>special offers</h3>
+                <h1>upto 50% off</h1>
+            </div>
+
+            <div class="img-offer">
+                <img src="./images/banner-2.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="offers-content">
+            <div class="text-offer">
+                <h3>special offers</h3>
+                <h1>upto 50% off</h1>
+            </div>
+
+            <div class="img-offer">
+                <img src="./images/banner-3.jpg" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<!-- new arrivals section  -->
+
+<section class="new-arrival">
+    <h1 class="header-text">
+        New <span>Arrival</span>
+    </h1>
+    <div class="arrival-container">
+        
+        <div class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-1.jpg">
+                <img src="./images/arrival-1-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>HD television</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-2.jpg">
+                <img src="./images/arrival-2-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>Lenovo laptop</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+         
+        <div class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-3.jpg">
+                <img src="./images/arrival-3-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>Iphone 13</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-4.jpg">
+                <img src="./images/arrival-4-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>Printer</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+        <div class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-5.jpg">
+                <img src="./images/arrival-5-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>Headphones</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+        <div  class="arrival-box">
+            <div class="image-offer">
+                <img src="./images/arrival-6.jpg">
+                <img src="./images/arrival-6-hover.jpg" class="hover-img">
+            </div>
+         
+            <div class="arrival-items">
+                <h2>Spaekers  Mi</h2>
+                <div class="price">$240.99 <span>$400</span> </div>
+
+            <div class="offer-star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star-half"></i>
+            </div>
+        
+            </div>
+        </div>
+
+
+     
+    </div>
+</section>
+
+<!-- footer seection  -->
+  <section class="footer">
+      <div class="footer-box">
+         <div class="logo-footer">
+            <a href="./home.html" class="logo"> <i class="fas fa-store"></i> Shopy </a>
+         </div>
+
+         <div class="links">
+            <ul>
+                <li>
+                    <a href="./home.html">Home</a>
+                    <a href="./about.html">About</a>
+                    <a href="./ptoduct.html">Product</a>
+                    <a href="./contact.html"> Contact</a>
+                    <a href="./login.html"> Login</a>
+                    <a href="./register.html"> Register</a>
+                    <a href="./cart.html">   Cart</a>
+                </li>
+            </ul>
+         </div>
+
+         <div class="social-media">
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+              <a href="#"><i class="fa-brands fa-telegram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+         </div>
+      </div>
+
+      <div class="cards">
+          <div class="creater">
+              <h3>Developed by <span>MominWebDev</span>  || <span>All Right Reserved!</span></h1>
+
+              <div class="payment-cards">
+                  <img src="./images/card_img.png" alt="">
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+   <!-- swiper js-->
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- custom js file -->
+    <script src="./js/index.js"></script>
+</body>
+</html>
